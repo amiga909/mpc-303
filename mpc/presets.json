@@ -1,0 +1,116 @@
+{
+ "presets": [
+  {
+   "name": "Init",
+   "values": {
+    "cutoff": 0.5,
+    "reso": 0.5,
+    "envmod": 0.5,
+    "decay": 0.5,
+    "accent": 0.5,
+    "wave": "Saw",
+    "tune": 0,
+    "volume": 0,
+    "drift": "On"
+   }
+  },
+  {
+   "name": "Squelch Saw",
+   "values": {
+    "cutoff": 0.25,
+    "reso": 0.85,
+    "envmod": 0.7,
+    "decay": 0.35,
+    "accent": 0.8,
+    "wave": "Saw",
+    "tune": 0,
+    "volume": 0,
+    "drift": "On"
+   }
+  },
+  {
+   "name": "Rubber Bass",
+   "values": {
+    "cutoff": 0.15,
+    "reso": 0.4,
+    "envmod": 0.35,
+    "decay": 0.55,
+    "accent": 0.4,
+    "wave": "Saw",
+    "tune": 0,
+    "volume": 0,
+    "drift": "On"
+   }
+  },
+  {
+   "name": "Square Acid",
+   "values": {
+    "cutoff": 0.3,
+    "reso": 0.8,
+    "envmod": 0.65,
+    "decay": 0.4,
+    "accent": 0.75,
+    "wave": "Square",
+    "tune": 0,
+    "volume": 0,
+    "drift": "On"
+   }
+  },
+  {
+   "name": "Screamer",
+   "values": {
+    "cutoff": 0.45,
+    "reso": 0.97,
+    "envmod": 0.85,
+    "decay": 0.25,
+    "accent": 1.0,
+    "wave": "Saw",
+    "tune": 0,
+    "volume": 0,
+    "drift": "On"
+   }
+  },
+  {
+   "name": "Deep Pluck",
+   "values": {
+    "cutoff": 0.05,
+    "reso": 0.2,
+    "envmod": 0.55,
+    "decay": 0.1,
+    "accent": 0.3,
+    "wave": "Square",
+    "tune": 0,
+    "volume": 0,
+    "drift": "On"
+   }
+  },
+  {
+   "name": "Wah Line",
+   "values": {
+    "cutoff": 0.35,
+    "reso": 0.75,
+    "envmod": 0.9,
+    "decay": 0.8,
+    "accent": 0.6,
+    "wave": "Saw",
+    "tune": 0,
+    "volume": 0,
+    "drift": "On"
+   }
+  },
+  {
+   "name": "Closed Tick",
+   "values": {
+    "cutoff": 0.0,
+    "reso": 0.9,
+    "envmod": 0.15,
+    "decay": 0.0,
+    "accent": 0.9,
+    "wave": "Saw",
+    "tune": 0,
+    "volume": 0,
+    "drift": "On"
+   }
+  }
+ ]
+}

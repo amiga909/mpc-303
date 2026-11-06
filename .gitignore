@@ -1,0 +1,10 @@
+build/
+build-*/
+.venv/
+*.wav
+!renders/*.wav
+.DS_Store
+mpc/build/
+mpc/dist/
+extern/
+mpc-vst-plugins/

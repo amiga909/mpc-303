@@ -1,0 +1,23 @@
+{
+  "name": "Acid3",
+  "params": [
+    {"key": "cutoff",    "name": "Cut Off",   "min": 0, "max": 1, "default": 0.5},
+    {"key": "reso",      "name": "Resonance", "min": 0, "max": 1, "default": 0.5},
+    {"key": "envmod",    "name": "Env Mod",   "min": 0, "max": 1, "default": 0.5},
+    {"key": "decay",     "name": "Decay",     "min": 0, "max": 1, "default": 0.5},
+    {"key": "accent",    "name": "Accent",    "min": 0, "max": 1, "default": 0.5},
+    {"key": "wave",      "name": "Waveform",  "options": ["Saw", "Square"], "default": "Saw"},
+    {"key": "tune",      "name": "Tuning",    "min": -12, "max": 12, "default": 0, "unit": "st"},
+    {"key": "volume",    "name": "Volume",    "min": -60, "max": 6, "default": 0, "unit": "dB"},
+    {"key": "drift",     "name": "Drift",     "options": ["Off", "On"], "default": "On"},
+    {"key": "seq",       "name": "Sequencer", "options": ["Off", "On"], "default": "Off"},
+    {"key": "pattern",   "name": "Pattern",   "options": ["Warehouse", "Stutter", "Climber", "Minor Drift", "Octave Jumps", "Tied Up", "Root Pump", "Seventh Heaven"], "default": "Warehouse"},
+    {"key": "transpose", "name": "Transpose", "min": -12, "max": 12, "default": 0, "display": "int"},
+    {"key": "swing",     "name": "Swing",     "min": 0, "max": 75, "default": 0, "unit": "%"},
+    {"key": "accthr",    "name": "Acc Vel",   "min": 1, "max": 127, "default": 100, "display": "int"}
+  ],
+  "sections": [
+    {"label": "Voice", "keys": ["cutoff", "reso", "envmod", "decay", "accent", "wave", "tune", "volume"]},
+    {"label": "Sequencer", "keys": ["seq", "pattern", "transpose", "swing", "accthr", "drift"]}
+  ]
+}

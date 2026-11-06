@@ -1,0 +1,41 @@
+{
+ "name": "Acid3",
+ "vendor": "Acid3",
+ "uid": "A303",
+ "version": 1000,
+ "so": "acid3.so",
+ "params": "params.json",
+ "layout": "layout.conf",
+ "art": "html",
+ "presets": "presets.json",
+ "build": {
+  "root": "..",
+  "sources": [
+   "mpc/acid3_mpc.cpp",
+   "src/dsp/Voice.cpp",
+   "src/seq/Pattern.cpp",
+   "src/seq/Sequencer.cpp",
+   "src/seq/Engine.cpp",
+   "src/plugin/Presets.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ],
+  "libs": [
+   "-lm"
+  ]
+ },
+ "defines": {
+  "SAMPLE_ACCURATE": 1,
+  "HAS_SONG_POS": 1
+ },
+ "cc": true,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ]
+}
